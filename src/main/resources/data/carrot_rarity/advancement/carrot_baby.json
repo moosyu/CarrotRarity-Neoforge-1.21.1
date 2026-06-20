@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "carrot_rarity:carrot_baby"
-            ]
+            "items": "carrot_rarity:carrot_baby"
           }
         ]
       },
@@ -22,7 +20,8 @@
     "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "carrot_rarity:carrot_baby"
+      "count": 1,
+      "id": "carrot_rarity:carrot_baby"
     },
     "show_toast": true,
     "title": {

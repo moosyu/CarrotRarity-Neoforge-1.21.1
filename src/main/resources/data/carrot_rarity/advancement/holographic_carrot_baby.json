@@ -1,12 +1,11 @@
 {
+  "parent": "carrot_rarity:carrot_baby",
   "criteria": {
-    "has_leggy_carrot": {
+    "has_holographic_carrot_baby": {
       "conditions": {
         "items": [
           {
-            "items": [
-              "carrot_rarity:leggy_carrot"
-            ]
+            "items": "carrot_rarity:holographic_carrot_baby"
           }
         ]
       },
@@ -15,23 +14,23 @@
   },
   "display": {
     "announce_to_chat": true,
-    "background": "minecraft:textures/block/gold_block.png",
     "description": {
-      "text": "That's a nice pull!"
+      "text": "You hit the jackpot!"
     },
-    "frame": "task",
-    "hidden": false,
+    "frame": "challenge",
+    "hidden": true,
     "icon": {
-      "item": "carrot_rarity:leggy_carrot"
+      "count": 1,
+      "id": "carrot_rarity:holographic_carrot_baby"
     },
     "show_toast": true,
     "title": {
-      "text": "Carrot Rarity"
+      "text": "Secret Rare"
     }
   },
   "requirements": [
     [
-      "has_leggy_carrot"
+      "has_holographic_carrot_baby"
     ]
   ],
   "sends_telemetry_event": true

@@ -6,7 +6,7 @@
       "item": "minecraft:fishing_rod"
     },
     "X": {
-      "tag": "forge:crops/carrot"
+      "tag": "neoforge:crops/carrot"
     }
   },
   "pattern": [

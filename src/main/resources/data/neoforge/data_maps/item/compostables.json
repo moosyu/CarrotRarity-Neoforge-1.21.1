@@ -1,0 +1,16 @@
+{
+  "values": {
+    "carrot_rarity:twisty_carrot": {
+      "chance": 0.65
+    },
+    "carrot_rarity:leggy_carrot": {
+      "chance": 0.65
+    },
+    "carrot_rarity:carrot_baby": {
+      "chance": 0.65
+    },
+    "carrot_rarity:holographic_carrot_baby": {
+      "chance": 0.65
+    }
+  }
+}
