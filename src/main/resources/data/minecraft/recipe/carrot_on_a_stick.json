@@ -6,7 +6,7 @@
       "item": "minecraft:fishing_rod"
     },
     "X": {
-      "tag": "neoforge:crops/carrot"
+      "tag": "c:crops/carrot"
     }
   },
   "pattern": [
@@ -14,7 +14,8 @@
     " X"
   ],
   "result": {
-    "item": "minecraft:carrot_on_a_stick"
+    "count": 1,
+    "id": "minecraft:carrot_on_a_stick"
   },
   "show_notification": true
 }

@@ -16,7 +16,7 @@ import static net.somfunambulist.carrot_rarity.item.ModItems.ITEMS;
 public class CarrotRarityMod {
     public static final String MOD_ID = "carrot_rarity";
 
-    public CarrotRarityMod(IEventBus modEventBus, ModContainer modContainer) {
+    public CarrotRarityMod(IEventBus modEventBus) {
         modEventBus.addListener(this::addCreative);
         ITEMS.register(modEventBus);
     }
